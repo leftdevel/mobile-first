@@ -1,0 +1,2 @@
+"https://{default}/": { type: upstream, upstream: "mobile-first:http" }
+"http://{default}/": { type: redirect, to: "https://{default}/" }
